@@ -21,7 +21,7 @@
             <h1>Agenda de Contatos</h1>
         </header>
         <form id="form-agenda">
-            <input type="text" id="nome-contato" required placeholder="Nome completo" />
+            <input type="text" id="nome-contato" required placeholder="Nome" />
             <input type="tel" id="telefone-contato" required placeholder="DDD-9999-9999"
                 pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />
             <button type="submit">Gravar</button>
@@ -29,20 +29,16 @@
         <table cellspacing="0">
             <thead>
                 <tr>
-                    <th>Nome Completo</th>
+                    <th>Nome</th>
                     <th>Telefone</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Paulo das Neves</td>
-                    <td>047-3245-9875</td>
-                </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <td>Contatos na Agenda</td>
-                    <td id="total-contatos">1</td>
+                    <td id="total-contatos">---</td>
                 </tr>
             </tfoot>
         </table>
